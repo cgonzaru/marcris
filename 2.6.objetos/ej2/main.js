@@ -15,5 +15,11 @@ const adalaber = {};
 adalaber.name = 'Susana';
 adalaber.run = phrase => ` ${phrase}`;
 
-
 console.log (adalaber.run('Estoy corriendo'));
+
+
+adalaber.runAMarathon = (distance) =>  {
+    return `estoy corriendo un maratón de ${distance} kilómetros`;
+}
+
+console.log (adalaber.runAMarathon (50));
